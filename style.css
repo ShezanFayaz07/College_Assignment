@@ -1,0 +1,226 @@
+      * {
+          margin: 0;
+          padding: 0;
+          font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .background {
+          background-image: url(Images/background.jpg);
+          background-size: cover;
+      }
+
+      .world-cup-background {
+          background-image: url(Images/World-Cup-.webp);
+          background-size: cover;
+          background-position: 100%;
+          position: relative;
+      }
+
+      .euro-cup-background {
+          background-image: url(Images/euro.avif);
+          background-size: cover;
+          background-position: 100%;
+      }
+
+      .league-background {
+          background-image: url(Images/Champions_league.webp);
+          background-size: cover;
+          background-position: 100%;
+      }
+
+      .background-awards {
+          background-image: url(Images/background_awards.jpg);
+          background-size: cover;
+      }
+
+      header {
+          background-color: rgba(0, 0, 0, 0.47);
+          position: sticky;
+          top: 0;
+      }
+
+      nav {
+          width: 65vw;
+          margin: auto;
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+      }
+      header a:hover {
+        padding: 8px 14px;
+        background-color: rgb(177, 128, 30);
+        border: 2px solid rgb(177, 128, 30);
+        border-radius: 12px;
+        transition: background-color 0.5s ease, padding 0.5s ease, border-radius 0.5s ease, border 0.5s ease;
+    }
+    
+      header a {
+          color: black;
+          font-size: 18px;
+          font-weight: 500;
+          text-decoration: none;
+      }
+
+      header ul li {
+          padding: 40px;
+      }
+
+      header ul {
+          list-style: none;
+          display: flex;
+      }
+
+      .container {
+          margin-top: 40px;
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          grid-template-rows: ifr 1fr;
+      }
+
+      .background-text {
+          color: rgb(0, 0, 0);
+          padding: 60px;
+          text-align: center;
+      }
+
+      .awards-heading p {
+          margin: auto;
+          width: 60vw;
+          font-size: 20px;
+          padding-top: 30px;
+      }
+
+      .homepage-section p {
+          font-size: 20px;
+          padding: 30px;
+      }
+
+      .homepage-section h1 {
+          text-align: center;
+      }
+
+      .images {
+          display: grid;
+          grid-template-rows: auto auto;
+          grid-template-columns: 1fr 1fr;
+          padding-top: 30px;
+          margin-top: 40px;
+          padding-bottom: 30px;
+          row-gap: 30px;
+      }
+
+      .first-row {
+          padding: 0px 100px;
+          text-align: center;
+          justify-self: center;
+          align-self: center;
+          grid-row: 1 / 2;
+          grid-column: 1/3;
+      }
+
+      .first-row p {
+          padding: 8px;
+          font-size: 20px;
+      }
+
+      .second-row {
+          grid-row: 2 / 3;
+          text-align: center;
+      }
+
+      .second-column {
+          grid-column: 2 / 3;
+      }
+
+      .first img {
+          object-fit: contain;
+      }
+
+      .img-text {
+          padding-top: 15px;
+      }
+
+      footer {
+          background-color: rgb(34, 34, 34);
+          color: white;
+          padding: 40px 0;
+      }
+
+      footer .container {
+          display: flex;
+          justify-content: space-around;
+      }
+
+      footer li,
+      footer a {
+          list-style: none;
+          text-decoration: none;
+          color: white;
+          padding: 9px 0px 0px 2px;
+      }
+
+      .social-icons ul {
+          display: flex;
+      }
+
+      .footer-info {
+          text-align: center;
+      }
+
+      .footer-info p {
+          margin: 5px 0px;
+      }
+
+      footer a:hover {
+          color: purple;
+      }
+
+      .separation {
+          height: 7px;
+          background-color: rgba(230, 223, 223, 0.803);
+      }
+
+      .first-awards {
+          display: flex;
+          justify-content: space-between;
+          max-width: 80vw;
+          margin: auto;
+          color: white;
+          align-items: center;
+          padding: 20px;
+      }
+
+      .text {
+          display: flex;
+          flex-direction: column;
+          padding: 20px;
+      }
+
+      .big {
+          font-size: 48px;
+      }
+
+      .small,
+      .world-cup p {
+          font-size: 24px;
+      }
+
+      .world-cup {
+          display: grid;
+          grid-template-rows: 1fr 1fr;
+      }
+
+      .world-cup-text h1,
+      .world-cup-text p,
+      .world-cup-text h2 {
+          color: rgb(255, 255, 255);
+          position: relative;
+          z-index: 5;
+          padding: 20px;
+          font-weight: 700;
+          text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+      }
+
+      .container-awards {
+          background-color: rgba(0, 0, 0, 0.914);
+      }
